@@ -1,5 +1,3 @@
-import java.util.Objects;
-
 public abstract class Videospiel {
 
     private String titel;
@@ -12,7 +10,6 @@ public abstract class Videospiel {
         this.erscheinungsjahr = erscheinungsjahr;
     }
 
-    // Getter
     public String getTitel() {
         return titel;
     }
@@ -25,11 +22,7 @@ public abstract class Videospiel {
         return erscheinungsjahr;
     }
 
-    // Abstrakte Methode – muss in den Unterklassen implementiert werden
-    public abstract String getBeschreibung();
-
+    // Jetzt abstract → die Unterklassen müssen toString() implementieren
     @Override
-    public String toString() {
-        return titel + " (" + erscheinungsjahr + ")";
-    }
+    public abstract String toString();
 }
