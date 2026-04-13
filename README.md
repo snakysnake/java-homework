@@ -51,9 +51,9 @@ Rollenspiel 'The Elder Scrolls V: Skyrim' von Bethesda Game Studios (2011). Spie
 
 
 ### ➕ Zusätzliche kurze Aufgabe
-* Kurze Zusatzaufgabe (optional, +2 Punkte):
+Kurze Zusatzaufgabe (optional, +2 Punkte):
 Erweitere die main-Methode in VideospielDatenbank.java so, dass die Spiele nach Erscheinungsjahr aufsteigend sortiert werden, bevor sie ausgegeben werden.
-Tipp: Verwende Collections.sort() mit einem Comparator (oder List.sort()), der auf getErscheinungsjahr() zugreift.
+<br/>Tipp: Verwende Collections.sort() mit einem Comparator (oder List.sort()), der auf getErscheinungsjahr() zugreift.
 
 🔧 Bonus (optional)
 
