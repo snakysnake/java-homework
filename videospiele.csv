@@ -1,57 +1,57 @@
-titel,entwickler,erscheinungsjahr,typ,zusatz
-Doom,id Software,1993,Action,hoch
-The Elder Scrolls V: Skyrim,Bethesda Game Studios,2011,RPG,Fantasy
-Half-Life 2,Valve,2004,Action,mittel
-Baldur's Gate 3,Larian Studios,2023,RPG,Fantasy
-Counter-Strike 2,Valve,2023,Action,hoch
-The Witcher 3: Wild Hunt,CD Projekt Red,2015,RPG,Fantasy
-God of War,Santa Monica Studio,2018,Action,hoch
-Doom Eternal,id Software,2020,Action,hoch
-Horizon Zero Dawn,Guerrilla Games,2017,Action,mittel
-Uncharted 4: A Thief's End,Naughty Dog,2016,Action,mittel
-Shadow of the Tomb Raider,Square Enix,2018,Action,niedrig
-Assassin's Creed Odyssey,Ubisoft,2018,Action,mittel
-Far Cry 5,Ubisoft,2018,Action,hoch
-Metro: Exodus,4A Games,2019,Action,hoch
-Control,Remedy Entertainment,2019,Action,mittel
-Alan Wake 2,Remedy Entertainment,2023,Action,hoch
-Ghost of Tsushima,Sucker Punch Productions,2020,Action,mittel
-Marvel's Spider-Man,Insomniac Games,2018,Action,hoch
-Ratchet & Clank: Rift Apart,Insomniac Games,2021,Action,mittel
-Returnal,Housemarque,2021,Action,hoch
-Deathloop,Arkane Studios,2021,Action,mittel
-Hi-Fi Rush,Tango Gameworks,2023,Action,niedrig
-Atomic Heart,Mundfish,2023,Action,hoch
-Lies of P,Neowiz,2023,Action,mittel
-Remnant 2,Gunfire Games,2023,Action,hoch
-Helldivers 2,Arrowhead Game Studios,2024,Action,hoch
-Black Myth: Wukong,Game Science,2024,Action,mittel
-Stellar Blade,Shift Up,2024,Action,hoch
-Senua's Saga: Hellblade II,Ninja Theory,2024,Action,mittel
-Prince of Persia: The Lost Crown,Ubisoft,2024,Action,niedrig
-Pacific Drive,Ironwood Studios,2024,Action,mittel
-Elden Ring,FromSoftware,2022,RPG,Fantasy
-Cyberpunk 2077,CD Projekt Red,2020,RPG,Cyberpunk
-Final Fantasy XVI,Square Enix,2023,RPG,Fantasy
-Starfield,Bethesda Game Studios,2023,RPG,Sci-Fi
-Dragon's Dogma 2,Capcom,2024,RPG,Fantasy
-Final Fantasy VII Rebirth,Square Enix,2024,RPG,Fantasy
-Metaphor: ReFantazio,Atlus,2024,RPG,Fantasy
-Like a Dragon: Infinite Wealth,Ryu Ga Gotoku Studio,2024,RPG,Modern
-Persona 3 Reload,Atlus,2024,RPG,Modern
-Granblue Fantasy: Relink,Cygames,2024,RPG,Fantasy
-Unicorn Overlord,Vanillaware,2024,RPG,Fantasy
-Dragon Age: The Veilguard,BioWare,2024,RPG,Fantasy
-Avowed,Obsidian Entertainment,2025,RPG,Fantasy
-Kingdom Come: Deliverance II,Warhorse Studios,2025,RPG,Historical
-Kunitsu-Gami: Path of the Goddess,Capcom,2024,RPG,Fantasy
-Visions of Mana,Square Enix,2024,RPG,Fantasy
-Warhammer 40k: Rogue Trader,Owlcat Games,2023,RPG,Sci-Fi
-Pathfinder: Wrath of the Righteous,Owlcat Games,2021,RPG,Fantasy
-Solasta: Crown of the Magister,Tactical Adventures,2021,RPG,Fantasy
-Wartales,Shiro Games,2023,RPG,Historical
-Enshrouded,Keen Games,2024,RPG,Fantasy
-Palworld,Pocketpair,2024,RPG,Sci-Fi
-No Rest for the Wicked,Moon Studios,2024,RPG,Fantasy
-Hades,Supergiant Games,2020,RPG,Fantasy
-Hades II,Supergiant Games,2025,RPG,Fantasy
+titel,entwickler,erscheinungsjahr,typ,beschreibung_rpg,beschreibung_action
+Doom,id Software,1993,Action,,Action-Spiel 'Doom' von id Software (1993). Schwierigkeitsgrad: hoch.
+The Elder Scrolls V: Skyrim,Bethesda Game Studios,2011,RPG,Rollenspiel 'The Elder Scrolls V: Skyrim' von Bethesda Game Studios (2011). Spielwelt: Fantasy.,
+Half-Life 2,Valve,2004,Action,,Action-Spiel 'Half-Life 2' von Valve (2004). Schwierigkeitsgrad: mittel.
+Baldur's Gate 3,Larian Studios,2023,RPG,Rollenspiel 'Baldur's Gate 3' von Larian Studios (2023). Spielwelt: Fantasy.,
+Counter-Strike 2,Valve,2023,Action,,Action-Spiel 'Counter-Strike 2' von Valve (2023). Schwierigkeitsgrad: hoch.
+The Witcher 3: Wild Hunt,CD Projekt Red,2015,RPG,Rollenspiel 'The Witcher 3: Wild Hunt' von CD Projekt Red (2015). Spielwelt: Fantasy.
+God of War,Santa Monica Studio,2018,Action,,Action-Spiel 'God of War' von Santa Monica Studio (2018). Schwierigkeitsgrad: hoch.
+Doom Eternal,id Software,2020,Action,,Action-Spiel 'Doom Eternal' von id Software (2020). Schwierigkeitsgrad: hoch.
+Horizon Zero Dawn,Guerrilla Games,2017,Action,,Action-Spiel 'Horizon Zero Dawn' von Guerrilla Games (2017). Schwierigkeitsgrad: mittel.
+Uncharted 4: A Thief's End,Naughty Dog,2016,Action,,Action-Spiel 'Uncharted 4: A Thief's End' von Naughty Dog (2016). Schwierigkeitsgrad: mittel.
+Shadow of the Tomb Raider,Square Enix,2018,Action,,Action-Spiel 'Shadow of the Tomb Raider' von Square Enix (2018). Schwierigkeitsgrad: niedrig.
+Assassin's Creed Odyssey,Ubisoft,2018,Action,,Action-Spiel 'Assassin's Creed Odyssey' von Ubisoft (2018). Schwierigkeitsgrad: mittel.
+Far Cry 5,Ubisoft,2018,Action,,Action-Spiel 'Far Cry 5' von Ubisoft (2018). Schwierigkeitsgrad: hoch.
+Metro: Exodus,4A Games,2019,Action,,Action-Spiel 'Metro: Exodus' von 4A Games (2019). Schwierigkeitsgrad: hoch.
+Control,Remedy Entertainment,2019,Action,,Action-Spiel 'Control' von Remedy Entertainment (2019). Schwierigkeitsgrad: mittel.
+Alan Wake 2,Remedy Entertainment,2023,Action,,Action-Spiel 'Alan Wake 2' von Remedy Entertainment (2023). Schwierigkeitsgrad: hoch.
+Ghost of Tsushima,Sucker Punch Productions,2020,Action,,Action-Spiel 'Ghost of Tsushima' von Sucker Punch Productions (2020). Schwierigkeitsgrad: mittel.
+Marvel's Spider-Man,Insomniac Games,2018,Action,,Action-Spiel 'Marvel's Spider-Man' von Insomniac Games (2018). Schwierigkeitsgrad: hoch.
+Ratchet & Clank: Rift Apart,Insomniac Games,2021,Action,,Action-Spiel 'Ratchet & Clank: Rift Apart' von Insomniac Games (2021). Schwierigkeitsgrad: mittel.
+Returnal,Housemarque,2021,Action,,Action-Spiel 'Returnal' von Housemarque (2021). Schwierigkeitsgrad: hoch.
+Deathloop,Arkane Studios,2021,Action,,Action-Spiel 'Deathloop' von Arkane Studios (2021). Schwierigkeitsgrad: mittel.
+Hi-Fi Rush,Tango Gameworks,2023,Action,,Action-Spiel 'Hi-Fi Rush' von Tango Gameworks (2023). Schwierigkeitsgrad: niedrig.
+Atomic Heart,Mundfish,2023,Action,,Action-Spiel 'Atomic Heart' von Mundfish (2023). Schwierigkeitsgrad: hoch.
+Lies of P,Neowiz,2023,Action,,Action-Spiel 'Lies of P' von Neowiz (2023). Schwierigkeitsgrad: mittel.
+Remnant 2,Gunfire Games,2023,Action,,Action-Spiel 'Remnant 2' von Gunfire Games (2023). Schwierigkeitsgrad: hoch.
+Helldivers 2,Arrowhead Game Studios,2024,Action,,Action-Spiel 'Helldivers 2' von Arrowhead Game Studios (2024). Schwierigkeitsgrad: hoch.
+Black Myth: Wukong,Game Science,2024,Action,,Action-Spiel 'Black Myth: Wukong' von Game Science (2024). Schwierigkeitsgrad: mittel.
+Stellar Blade,Shift Up,2024,Action,,Action-Spiel 'Stellar Blade' von Shift Up (2024). Schwierigkeitsgrad: hoch.
+Senua's Saga: Hellblade II,Ninja Theory,2024,Action,,Action-Spiel 'Senua's Saga: Hellblade II' von Ninja Theory (2024). Schwierigkeitsgrad: mittel.
+Prince of Persia: The Lost Crown,Ubisoft,2024,Action,,Action-Spiel 'Prince of Persia: The Lost Crown' von Ubisoft (2024). Schwierigkeitsgrad: niedrig.
+Pacific Drive,Ironwood Studios,2024,Action,,Action-Spiel 'Pacific Drive' von Ironwood Studios (2024). Schwierigkeitsgrad: mittel.
+Elden Ring,FromSoftware,2022,RPG,Rollenspiel 'Elden Ring' von FromSoftware (2022). Spielwelt: Fantasy.,
+Cyberpunk 2077,CD Projekt Red,2020,RPG,Rollenspiel 'Cyberpunk 2077' von CD Projekt Red (2020). Spielwelt: Cyberpunk.,
+Final Fantasy XVI,Square Enix,2023,RPG,Rollenspiel 'Final Fantasy XVI' von Square Enix (2023). Spielwelt: Fantasy.
+Starfield,Bethesda Game Studios,2023,RPG,Rollenspiel 'Starfield' von Bethesda Game Studios (2023). Spielwelt: Sci-Fi.
+Dragon's Dogma 2,Capcom,2024,RPG,Rollenspiel 'Dragon's Dogma 2' von Capcom (2024). Spielwelt: Fantasy.
+Final Fantasy VII Rebirth,Square Enix,2024,RPG,Rollenspiel 'Final Fantasy VII Rebirth' von Square Enix (2024). Spielwelt: Fantasy.
+Metaphor: ReFantazio,Atlus,2024,RPG,Rollenspiel 'Metaphor: ReFantazio' von Atlus (2024). Spielwelt: Fantasy.
+Like a Dragon: Infinite Wealth,Ryu Ga Gotoku Studio,2024,RPG,Rollenspiel 'Like a Dragon: Infinite Wealth' von Ryu Ga Gotoku Studio (2024). Spielwelt: Modern.
+Persona 3 Reload,Atlus,2024,RPG,Rollenspiel 'Persona 3 Reload' von Atlus (2024). Spielwelt: Modern.
+Granblue Fantasy: Relink,Cygames,2024,RPG,Rollenspiel 'Granblue Fantasy: Relink' von Cygames (2024). Spielwelt: Fantasy.
+Unicorn Overlord,Vanillaware,2024,RPG,Rollenspiel 'Unicorn Overlord' von Vanillaware (2024). Spielwelt: Fantasy.
+Dragon Age: The Veilguard,BioWare,2024,RPG,Rollenspiel 'Dragon Age: The Veilguard' von BioWare (2024). Spielwelt: Fantasy.
+Avowed,Obsidian Entertainment,2025,RPG,Rollenspiel 'Avowed' von Obsidian Entertainment (2025). Spielwelt: Fantasy.
+Kingdom Come: Deliverance II,Warhorse Studios,2025,RPG,Rollenspiel 'Kingdom Come: Deliverance II' von Warhorse Studios (2025). Spielwelt: Historical.
+Kunitsu-Gami: Path of the Goddess,Capcom,2024,RPG,Rollenspiel 'Kunitsu-Gami: Path of the Goddess' von Capcom (2024). Spielwelt: Fantasy.
+Visions of Mana,Square Enix,2024,RPG,Rollenspiel 'Visions of Mana' von Square Enix (2024). Spielwelt: Fantasy.
+Warhammer 40k: Rogue Trader,Owlcat Games,2023,RPG,Rollenspiel 'Warhammer 40k: Rogue Trader' von Owlcat Games (2023). Spielwelt: Sci-Fi.
+Pathfinder: Wrath of the Righteous,Owlcat Games,2021,RPG,Rollenspiel 'Pathfinder: Wrath of the Righteous' von Owlcat Games (2021). Spielwelt: Fantasy.
+Solasta: Crown of the Magister,Tactical Adventures,2021,RPG,Rollenspiel 'Solasta: Crown of the Magister' von Tactical Adventures (2021). Spielwelt: Fantasy.
+Wartales,Shiro Games,2023,RPG,Rollenspiel 'Wartales' von Shiro Games (2023). Spielwelt: Historical.
+Enshrouded,Keen Games,2024,RPG,Rollenspiel 'Enshrouded' von Keen Games (2024). Spielwelt: Fantasy.
+Palworld,Pocketpair,2024,RPG,Rollenspiel 'Palworld' von Pocketpair (2024). Spielwelt: Sci-Fi.
+No Rest for the Wicked,Moon Studios,2024,RPG,Rollenspiel 'No Rest for the Wicked' von Moon Studios (2024). Spielwelt: Fantasy.
+Hades,Supergiant Games,2020,RPG,Rollenspiel 'Hades' von Supergiant Games (2020). Spielwelt: Fantasy.
+Hades II,Supergiant Games,2025,RPG,Rollenspiel 'Hades II' von Supergiant Games (2025). Spielwelt: Fantasy.
