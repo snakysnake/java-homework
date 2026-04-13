@@ -9,6 +9,7 @@ public class VideospielDatenbank {
     public static void main(String[] args) {
         List<Videospiel> spiele = new ArrayList<>();
 
+        // TODO 1: CSV-Datei mit BufferedReader öffnen
         try (BufferedReader br = new BufferedReader(new FileReader("videospiele.csv"))) {
             String line;
             boolean ersteZeile = true;
@@ -16,38 +17,44 @@ public class VideospielDatenbank {
             while ((line = br.readLine()) != null) {
                 if (ersteZeile) {
                     ersteZeile = false;
-                    continue;
+                    continue; // Header überspringen
                 }
 
-                String[] daten = line.split(",", -1); // -1 damit leere Felder nicht verschwinden
-                if (daten.length < 6) continue;
+                // TODO 2: Zeile in Spalten aufteilen (6 Spalten!)
+                // Tipp: split(",", -1) damit leere Felder nicht verschwinden
+                String[] daten = line.split(/* TODO: Argument hier */);
 
-                String titel = daten[0].trim();
-                String entwickler = daten[1].trim();
-                int jahr = Integer.parseInt(daten[2].trim());
-                String typ = daten[3].trim();
-                String beschreibungRpg = daten[4].trim();
-                String beschreibungAction = daten[5].trim();
+                // TODO 3: Die einzelnen Werte aus dem Array extrahieren
+                String titel = /* TODO */;
+                String entwickler = /* TODO */;
+                int jahr = /* TODO: Integer.parseInt(...) */;
+                String typ = /* TODO */;
+                String beschreibungRpg = /* TODO */;
+                String beschreibungAction = /* TODO */;
 
                 Videospiel spiel = null;
 
-                if (typ.equals("Action") && !beschreibungAction.isEmpty()) {
-                    spiel = new ActionSpiel(titel, entwickler, jahr, beschreibungAction);
-                } else if (typ.equals("RPG") && !beschreibungRpg.isEmpty()) {
-                    spiel = new Rollenspiel(titel, entwickler, jahr, beschreibungRpg);
+                // TODO 4: Je nach "typ" das richtige Objekt erzeugen
+                if (typ.equals("Action") /* && zusätzliche Prüfung */) {
+                    // TODO: ActionSpiel-Objekt erstellen
+                } else if (typ.equals("RPG") /* && zusätzliche Prüfung */) {
+                    // TODO: Rollenspiel-Objekt erstellen
                 }
 
                 if (spiel != null) {
                     spiele.add(spiel);
                 }
             }
-        } catch (IOException | NumberFormatException e) {
-            System.err.println("Fehler: " + e.getMessage());
+        } catch (IOException e) {
+            System.err.println("Fehler beim Lesen der Datei: " + e.getMessage());
+        } catch (NumberFormatException e) {
+            System.err.println("Fehler beim Umwandeln einer Zahl: " + e.getMessage());
         }
 
+        // Ausgabe (bereits fertig – Polymorphie!)
         System.out.println("=== Videospiel-Datenbank ===\n");
         for (Videospiel s : spiele) {
-            System.out.println(s);        // ruft automatisch toString() auf!
+            System.out.println(s);   // ruft automatisch toString() auf
         }
     }
 }
