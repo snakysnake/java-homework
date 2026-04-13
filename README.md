@@ -1,7 +1,7 @@
 # 🎮 Videospiel-Datenbank – Vererbung in Java
 
 **Hausübung (HÜ) – Objektorientierte Programmierung**  
-**Thema:** Vererbung mit abstrakter Basisklasse und CSV-Einlesen
+**Thema:** Vererbung mit abstrakter Basisklasse, `toString()`-Überschreibung und CSV-Einlesen
 
 ---
 
@@ -9,12 +9,12 @@
 
 Es soll eine kleine Videospiel-Datenbank erstellt werden, die das Konzept der **Vererbung** und **abstrakten Klassen** in Java demonstriert.
 
-- **Abstrakte Basisklasse:** `Videospiel`
+- **Abstrakte Basisklasse:** `Videospiel` (mit abstrakter `toString()`-Methode)
 - **Zwei konkrete Unterklassen:** `ActionSpiel` und `Rollenspiel`
-- Daten werden aus einer CSV-Datei eingelesen und als passende Objekte instanziiert.
-- Polymorphie wird genutzt, um alle Spiele einheitlich zu verarbeiten.
-
-Die CSV-Datei enthält Action- und Rollenspiele mit Titel, Entwickler, Erscheinungsjahr, Typ und einem zusätzlichen Attribut.
+- Daten werden aus einer CSV-Datei eingelesen.
+- Jede Zeile enthält **fertige Beschreibungen** in den Spalten `beschreibung_rpg` und `beschreibung_action`.
+- Die Unterklassen speichern nur die passende fertige Beschreibung und geben sie über `toString()` zurück.
+- Polymorphie wird genutzt (`System.out.println(spiel)` ruft automatisch die richtige `toString()` auf).
 
 ---
 
@@ -38,28 +38,23 @@ text=== Videospiel-Datenbank ===
 
 Action-Spiel 'Doom' von id Software (1993). Schwierigkeitsgrad: hoch.
 Rollenspiel 'The Elder Scrolls V: Skyrim' von Bethesda Game Studios (2011). Spielwelt: Fantasy.
-Action-Spiel 'Half-Life 2' von Valve (2004). Schwierigkeitsgrad: mittel.
-Rollenspiel 'Baldur's Gate 3' von Larian Studios (2023). Spielwelt: Fantasy.
-Action-Spiel 'Counter-Strike 2' von Valve (2023). Schwierigkeitsgrad: hoch.
-Rollenspiel 'The Witcher 3: Wild Hunt' von CD Projekt Red (2015). Spielwelt: Fantasy.
+...
 
 ✅ Erfüllte Anforderungen
 
-✅ Eine abstrakte Klasse Videospiel mit abstrakter Methode getBeschreibung()
+✅ Eine abstrakte Klasse Videospiel mit abstrakter toString()-Methode
 ✅ Korrekte Vererbung mit super()-Aufruf
 ✅ Dynamisches Erzeugen der richtigen Unterklasse anhand des CSV-Felds typ
-✅ Polymorphie über ArrayList<Videospiel>
+✅ Jede Unterklasse speichert und gibt die fertige Beschreibung aus der CSV zurück
+✅ Polymorphie über ArrayList<Videospiel> und System.out.println(s)
 ✅ Sauberes Einlesen der CSV-Datei (BufferedReader)
-✅ Getter-Methoden und überschriebene toString()
 
+
+➕ Zusätzliche kurze Aufgabe
+Kurze Zusatzaufgabe (optional, +2 Punkte):
+Erweitere die main-Methode in VideospielDatenbank.java so, dass die Spiele nach Erscheinungsjahr aufsteigend sortiert werden, bevor sie ausgegeben werden.
+Tipp: Verwende Collections.sort() mit einem Comparator (oder List.sort()), der auf getErscheinungsjahr() zugreift.
 
 🔧 Bonus (optional)
 
-Sortierung der Spiele nach Erscheinungsjahr
-Einfache Fehlerbehandlung bei falschem typ oder fehlenden Daten
-
-
-Abgabe:
-Alle fünf Dateien (*.java + videospiele.csv) in einem ZIP-Archiv oder als Git-Repository abgeben.
-Erstellt als Hausübung für den Unterricht
-Viel Spaß beim Programmieren! 🎮
+Ausgabe einer kurzen Statistik (z. B. „Geladen: 30 Action-Spiele und 26 Rollenspiele“)
