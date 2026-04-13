@@ -1,19 +1,14 @@
 public class Rollenspiel extends Videospiel {
 
-    private String spielwelt;
+    private String beschreibung;
 
-    public Rollenspiel(String titel, String entwickler, int erscheinungsjahr, String spielwelt) {
+    public Rollenspiel(String titel, String entwickler, int erscheinungsjahr, String beschreibung) {
         super(titel, entwickler, erscheinungsjahr);
-        this.spielwelt = spielwelt;
-    }
-
-    public String getSpielwelt() {
-        return spielwelt;
+        this.beschreibung = beschreibung;
     }
 
     @Override
-    public String getBeschreibung() {
-        // TODO: Hier die geforderte Beschreibung zurückgeben
-        return null; // Platzhalter – bitte ersetzen!
+    public String toString() {
+        return beschreibung;
     }
 }
