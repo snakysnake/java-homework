@@ -38,7 +38,7 @@ text=== Videospiel-Datenbank ===
 
 Action-Spiel 'Doom' von id Software (1993). Schwierigkeitsgrad: hoch.
 Rollenspiel 'The Elder Scrolls V: Skyrim' von Bethesda Game Studios (2011). Spielwelt: Fantasy.
-...
+```
 
 ✅ Erfüllte Anforderungen
 
