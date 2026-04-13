@@ -40,14 +40,14 @@ Action-Spiel 'Doom' von id Software (1993). Schwierigkeitsgrad: hoch.
 Rollenspiel 'The Elder Scrolls V: Skyrim' von Bethesda Game Studios (2011). Spielwelt: Fantasy.
 ```
 
-✅ Erfüllte Anforderungen
+### Erfüllte Anforderungen
 
-✅ Eine abstrakte Klasse Videospiel mit abstrakter toString()-Methode
-✅ Korrekte Vererbung mit super()-Aufruf
-✅ Dynamisches Erzeugen der richtigen Unterklasse anhand des CSV-Felds typ
-✅ Jede Unterklasse speichert und gibt die fertige Beschreibung aus der CSV zurück
-✅ Polymorphie über ArrayList<Videospiel> und System.out.println(s)
-✅ Sauberes Einlesen der CSV-Datei (BufferedReader)
+* Eine abstrakte Klasse Videospiel mit abstrakter toString()-Methode
+* Korrekte Vererbung mit super()-Aufruf
+* Dynamisches Erzeugen der richtigen Unterklasse anhand des CSV-Felds typ
+* Jede Unterklasse speichert und gibt die fertige Beschreibung aus der CSV zurück
+* Polymorphie über ArrayList<Videospiel> und System.out.println(s)
+* Sauberes Einlesen der CSV-Datei (BufferedReader)
 
 
 ➕ Zusätzliche kurze Aufgabe
