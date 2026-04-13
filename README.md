@@ -18,16 +18,6 @@ Die CSV-Datei enthält Action- und Rollenspiele mit Titel, Entwickler, Erscheinu
 
 ---
 
-## 🗂 Projektstruktur
-videospiele-vererbung/
-├── Videospiel.java              ← abstrakte Basisklasse
-├── ActionSpiel.java             ← Unterklasse 1
-├── Rollenspiel.java             ← Unterklasse 2
-├── VideospielDatenbank.java     ← Hauptprogramm mit main()
-├── videospiele.csv              ← Datenquelle
-└── README.md                    ← diese Datei
-text---
-
 ## 🚀 Ausführen
 
 ### Voraussetzungen
